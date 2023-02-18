@@ -3,6 +3,7 @@
 :root {
     --grey-dark-color: #777;
     --grey-light-color: #dcdcdc;
+    --white-color: #fff;
 }
 
 html, body {
