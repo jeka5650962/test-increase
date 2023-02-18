@@ -1,6 +1,12 @@
 @import "nullstyle.css";
 
-html, body {}
+:root {
+    --grey-dark-color: #777;
+    --grey-light-color: #dcdcdc;
+}
+
+html, body {
+}
 
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -19,10 +25,18 @@ body {
     height: 100%;
 }
 
-.header {}
+.header {
+}
+
+.header__body {
+    display: flex;
+    padding: 24px 0 19px 0;
+    border-bottom: 1px solid #696969;
+}
 
 .content {
     flex: 1 1 auto;
 }
 
-.footer {}
+.footer {
+}
