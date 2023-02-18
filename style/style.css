@@ -1,0 +1,27 @@
+@import "nullstyle.css";
+
+html, body {}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+[class*="__container"] {
+    max-width: 959px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header {}
+
+.content {
+    flex: 1 1 auto;
+}
+
+.footer {}
