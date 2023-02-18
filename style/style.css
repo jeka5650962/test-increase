@@ -8,8 +8,9 @@ body {
 }
 
 [class*="__container"] {
-    max-width: 959px;
+    max-width: 1019px;
     margin: 0 auto;
+    padding: 0 30px;
 }
 
 .wrapper {
