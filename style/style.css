@@ -9,6 +9,7 @@
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 14px;
+    line-height: 22px;
 }
 
 [class*="__container"] {
@@ -26,7 +27,7 @@ body {
 .block-dark {
     background-color: var(--grey-dark-color);
     color: var(--white-color);
-    padding: 20px;
+    padding: 21px;
 }
 
 .block-light {
@@ -37,10 +38,6 @@ body {
 
 .block-link {
     color: var(--white-color);
-}
-
-.block-link:not(:last-child) {
-    margin: 0 0 13px 0;
 }
 
 .header__body {
@@ -91,7 +88,6 @@ body {
 
 .content__link {
     color: var(--white-color);
-    line-height: 22px;
 }
 
 .content__link.active {
@@ -104,4 +100,15 @@ body {
 
 .content__center {
     flex: 1 1 auto;
+}
+
+.center-content__list {
+    margin: 22px 0;
+}
+
+.center-content__item {
+}
+
+.center-content__item span {
+    font-weight: bold;
 }
