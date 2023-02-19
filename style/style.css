@@ -33,11 +33,16 @@ body {
     color: var(--white-color);
 }
 
+.block-link:not(:last-child) {
+    margin: 0 0 13px 0;
+}
+
 .header {
 }
 
 .header__body {
     display: flex;
+    column-gap: 22px;
     padding: 24px 0 19px 0;
     border-bottom: 1px solid var(--grey-dark-color);
 }
@@ -46,7 +51,12 @@ body {
 
 .header__contact {}
 
-.header__more {}
+.header__more {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex: 1 1 auto;
+}
 
 .header__phone {}
 
