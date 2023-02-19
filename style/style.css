@@ -104,12 +104,21 @@ body {
 }
 
 .center-content__list {
-    margin: 22px 0;
-}
-
-.center-content__item {
+    margin: 22px 0 22px 30px;
 }
 
 .center-content__item span {
     font-weight: bold;
 }
+
+.center-content__item:before {
+    content: '';
+    width: 3px;
+    height: 3px;
+    display: inline-block;
+    margin: 0 6px 0 0;
+    background-color: var(--grey-dark-color);
+    position: relative;
+    top: -2px;
+}
+
