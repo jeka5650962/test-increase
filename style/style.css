@@ -23,6 +23,16 @@ body {
     height: 100%;
 }
 
+.block-dark {
+    background-color: var(--grey-dark-color);
+    color: var(--white-color);
+    padding: 20px;
+}
+
+.block-link {
+    color: var(--white-color);
+}
+
 .header {
 }
 
@@ -30,6 +40,22 @@ body {
     display: flex;
     padding: 24px 0 19px 0;
     border-bottom: 1px solid var(--grey-dark-color);
+}
+
+.header__logo {}
+
+.header__contact {}
+
+.header__more {}
+
+.header__phone {}
+
+.header__email {
+    text-decoration: underline;
+}
+
+.header__site {
+    text-decoration: underline;
 }
 
 .content {
