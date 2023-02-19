@@ -74,4 +74,23 @@ body {
     padding: 22px 0 25px 0;
     border-top: 1px solid var(--grey-dark-color);
     border-bottom: 1px solid var(--grey-dark-color);
+    display: flex;
+    column-gap: 20px;
+}
+
+.content__menu {
+    flex: 0 0 185px;
+}
+
+.content__link {
+    color: var(--white-color);
+    line-height: 22px;
+}
+
+.content__link.active {
+    font-weight: bold;
+}
+
+.content__link:hover {
+    text-decoration: underline;
 }
