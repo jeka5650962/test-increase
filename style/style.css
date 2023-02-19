@@ -29,6 +29,12 @@ body {
     padding: 20px;
 }
 
+.block-light {
+    background-color: var(--grey-light-color);
+    color: var(--grey-dark-color);
+    padding: 20px;
+}
+
 .block-link {
     color: var(--white-color);
 }
@@ -80,6 +86,7 @@ body {
 
 .content__menu {
     flex: 0 0 185px;
+    align-self: flex-start;
 }
 
 .content__link {
@@ -93,4 +100,8 @@ body {
 
 .content__link:hover {
     text-decoration: underline;
+}
+
+.content__center {
+    flex: 1 1 auto;
 }
