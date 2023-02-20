@@ -376,6 +376,37 @@ main a:hover, footer a:hover {
     .content-middle__row {
         grid-template: 1fr / repeat(2, minmax(134px, 1fr));
     }
+
+    .content-bottom__row {
+        flex-direction: column;
+        row-gap: 17px;
+    }
+
+    .footer__row {
+        grid-template-columns: 1fr;
+        grid-template-areas: 'left' 'middle' 'right';
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 425px) {
+    .header__body {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 'logo' 'more' 'contact';
+    }
+
+    .header__more {
+        align-items: flex-start;
+    }
+
+    .content__list {
+        flex-direction: column;
+    }
+
+    .content__item {
+        flex: 0 1 auto;
+    }
 }
 
 @media (max-width: 349px) {
