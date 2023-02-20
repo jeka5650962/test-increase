@@ -335,6 +335,11 @@ main a:hover, footer a:hover {
         flex: 0 1 50%;
     }
 
+    .content-middle__row {
+        display: grid;
+        grid-template: 1fr / repeat(4, minmax(134px, 1fr));
+    }
+
     .footer__row {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -361,7 +366,20 @@ main a:hover, footer a:hover {
     }
 }
 
-@media (max-width: 479.98px) {
-
+@media (max-width: 659px) {
+    .content-middle__row {
+        grid-template: 1fr / repeat(3, minmax(134px, 1fr));
+    }
 }
 
+@media (max-width: 504px) {
+    .content-middle__row {
+        grid-template: 1fr / repeat(2, minmax(134px, 1fr));
+    }
+}
+
+@media (max-width: 349px) {
+    .content-middle__row {
+        grid-template: 1fr / minmax(134px, 1fr);
+    }
+}
