@@ -123,7 +123,7 @@ body {
     align-self: flex-start;
 }
 
-/* ----------------------------- top ----------------------------- */
+/* ----------------------------- center-top ----------------------------- */
 
 .content-top {}
 
@@ -148,7 +148,7 @@ body {
     top: -2px;
 }
 
-/* ----------------------------- middle ----------------------------- */
+/* ----------------------------- center-middle ----------------------------- */
 
 .content-middle {
     padding: 21px 0;
@@ -164,5 +164,35 @@ body {
     flex: 0 1 134px;
     height: 153px;
     background-color: var(--grey-light-color);
+}
+
+/* ----------------------------- center-bottom ----------------------------- */
+
+.content-bottom {}
+
+.content-bottom__row {
+    display: flex;
+    column-gap: 17px;
+}
+
+.content-bottom__item {
+    flex: 0 1 50%;
+}
+
+/* ----------------------------- footer ----------------------------- */
+
+.footer {
+    padding: 23px 0 25px 0;
+}
+
+.footer__container {}
+
+.footer__row {
+    display: flex;
+    column-gap: 28px;
+}
+
+.footer__item {
+    flex: 0 1 33.333%;
 }
 
