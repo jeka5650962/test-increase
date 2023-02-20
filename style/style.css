@@ -244,3 +244,19 @@ body {
 .footer-middle__link:hover {
     text-decoration: underline;
 }
+
+/* ----------------------------- footer-right ----------------------------- */
+
+.footer-right {}
+
+.footer-right__body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.footer-right__item {
+    height: 75px;
+}
+
