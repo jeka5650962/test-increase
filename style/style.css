@@ -137,7 +137,7 @@ body {
     font-weight: bold;
 }
 
-.content-top__item:before {
+.content-top__item::before {
     content: '';
     width: 3px;
     height: 3px;
@@ -196,6 +196,8 @@ body {
     flex: 0 1 33.333%;
 }
 
+/* ----------------------------- footer-left ----------------------------- */
+
 .footer-left {
     display: flex;
 }
@@ -215,6 +217,8 @@ body {
 .footer-left__link:hover {
     text-decoration: underline;
 }
+
+/* ----------------------------- footer-middle ----------------------------- */
 
 .footer-middle {}
 
