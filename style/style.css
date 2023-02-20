@@ -103,15 +103,15 @@ body {
     align-self: flex-start;
 }
 
-.center-content__list {
+.content-top__list {
     margin: 22px 0 22px 30px;
 }
 
-.center-content__item span {
+.content-top__item span {
     font-weight: bold;
 }
 
-.center-content__item:before {
+.content-top__item:before {
     content: '';
     width: 3px;
     height: 3px;
