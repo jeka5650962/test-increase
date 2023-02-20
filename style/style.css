@@ -24,6 +24,8 @@ body {
     height: 100%;
 }
 
+/* ----------------------------- general ----------------------------- */
+
 .block-dark {
     background-color: var(--grey-dark-color);
     color: var(--white-color);
@@ -39,6 +41,12 @@ body {
 .block-link {
     color: var(--white-color);
 }
+
+/* ----------------------------- header ----------------------------- */
+
+.header {}
+
+.header__container {}
 
 .header__body {
     display: flex;
@@ -61,6 +69,8 @@ body {
     flex: 1 1 auto;
 }
 
+.header__phone {}
+
 .header__email {
     text-decoration: underline;
 }
@@ -69,9 +79,13 @@ body {
     text-decoration: underline;
 }
 
+/* ----------------------------- content ----------------------------- */
+
 .content {
     flex: 1 1 auto;
 }
+
+.content__container {}
 
 .content__body {
     padding: 22px 0 25px 0;
@@ -86,6 +100,10 @@ body {
     align-self: flex-start;
 }
 
+.content__list {}
+
+.content__item {}
+
 .content__link {
     color: var(--white-color);
 }
@@ -98,14 +116,22 @@ body {
     text-decoration: underline;
 }
 
+/* ----------------------------- center ----------------------------- */
+
 .content__center {
     flex: 1 1 auto;
     align-self: flex-start;
 }
 
+/* ----------------------------- top ----------------------------- */
+
+.content-top {}
+
 .content-top__list {
     margin: 22px 0 22px 30px;
 }
+
+.content-top__item {}
 
 .content-top__item span {
     font-weight: bold;
@@ -121,4 +147,6 @@ body {
     position: relative;
     top: -2px;
 }
+
+/* ----------------------------- middle ----------------------------- */
 
