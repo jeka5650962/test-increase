@@ -301,7 +301,25 @@ main a:hover, footer a:hover {
 }
 
 @media (max-width: 767.98px) {
+    .header__body {
+        display: grid;
+        grid-template-columns: 122px 1fr;
+        grid-template-areas: 'logo more' 'contact contact';
+        row-gap: 22px;
+    }
 
+    .header__logo {
+        grid-area: logo;
+    }
+
+    .header__contact {
+        grid-area: contact;
+        min-height: 108px;
+    }
+
+    .header__more {
+        grid-area: more;
+    }
 }
 
 @media (max-width: 479.98px) {
