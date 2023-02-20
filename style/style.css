@@ -196,3 +196,23 @@ body {
     flex: 0 1 33.333%;
 }
 
+.footer-left {
+    display: flex;
+}
+
+.footer-left__column {
+    flex: 0 1 50%;
+}
+
+.footer-left__list {}
+
+.footer-left__item {}
+
+.footer-left__link {
+    color: var(--white-color);
+}
+
+.footer-left__link:hover {
+    text-decoration: underline;
+}
+
