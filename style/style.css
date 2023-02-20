@@ -320,6 +320,45 @@ main a:hover, footer a:hover {
     .header__more {
         grid-area: more;
     }
+
+    .content__body {
+        display: grid;
+        row-gap: 20px;
+    }
+
+    .content__list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .content__item {
+        flex: 0 1 50%;
+    }
+
+    .footer__row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 'left middle' 'right right';
+        row-gap: 28px;
+    }
+
+    .footer-left {
+        grid-area: left;
+    }
+
+    .footer-middle {
+        grid-area: middle;
+    }
+
+    .footer-right {
+        grid-area: right;
+    }
+
+    .footer-right__body {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 28px;
+    }
 }
 
 @media (max-width: 479.98px) {
