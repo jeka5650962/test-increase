@@ -216,3 +216,27 @@ body {
     text-decoration: underline;
 }
 
+.footer-middle {}
+
+.footer-middle__list {}
+
+.footer-middle__item {}
+
+.footer-middle__item::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    margin: 0 6px 0 0;
+    background-color: var(--white-color);
+    position: relative;
+    top: -1px;
+}
+
+.footer-middle__link {
+    color: var(--white-color);
+}
+
+.footer-middle__link:hover {
+    text-decoration: underline;
+}
