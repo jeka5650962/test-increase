@@ -150,3 +150,19 @@ body {
 
 /* ----------------------------- middle ----------------------------- */
 
+.content-middle {
+    padding: 21px 0;
+}
+
+.content-middle__row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21px;
+}
+
+.content-middle__item {
+    flex: 0 1 134px;
+    height: 153px;
+    background-color: var(--grey-light-color);
+}
+
