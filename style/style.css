@@ -187,6 +187,7 @@ main a:hover, footer a:hover {
 
 .footer__item {
     flex: 0 1 33.333%;
+    column-gap: 20px;
 }
 
 /* ----------------------------- footer-left ----------------------------- */
@@ -273,6 +274,7 @@ main a:hover, footer a:hover {
 
     .content__item {
         flex: 0 1 50%;
+        padding: 0 20px 0 0;
     }
 
     .content-middle__row {
@@ -345,6 +347,7 @@ main a:hover, footer a:hover {
 
     .content__item {
         flex: 0 1 auto;
+        padding: 0;
     }
 }
 
